@@ -46,7 +46,7 @@ export default function InputPage() {
 
     return ()=>unsub()
 
-  },[])
+  },[sharedDocRef])
 
 
   // Listen commands
